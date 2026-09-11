@@ -1,12 +1,12 @@
 [
-  {
-    "id": 1,
-    "name": "JavaScript",
-    "category": "Language",
-    "description": "A popular programming language used to make web pages interactive and build modern web applications.",
-    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    {
+    "id": 5,
+    "name": "React",
+    "category": "Frontend",
+    "description": "A JavaScript library for building reusable and interactive user interfaces.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     "rating": 4.9,
-    "difficulty": "Beginner-Friendly",
+    "difficulty": "Intermediate",
     "badge": "Popular"
   },
   {
@@ -40,13 +40,13 @@
     "badge": "Popular"
   },
   {
-    "id": 5,
-    "name": "React",
-    "category": "Frontend",
-    "description": "A JavaScript library for building reusable and interactive user interfaces.",
-    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    "id": 1,
+    "name": "JavaScript",
+    "category": "Language",
+    "description": "A popular programming language used to make web pages interactive and build modern web applications.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     "rating": 4.9,
-    "difficulty": "Intermediate",
+    "difficulty": "Beginner-Friendly",
     "badge": "Popular"
   },
   {
@@ -78,16 +78,6 @@
     "rating": 4.7,
     "difficulty": "Intermediate",
     "badge": "Fast"
-  },
-  {
-    "id": 9,
-    "name": "MongoDB",
-    "category": "Database",
-    "description": "A NoSQL database that stores data in flexible JSON-like documents.",
-    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-    "rating": 4.7,
-    "difficulty": "Intermediate",
-    "badge": "Popular"
   },
   {
     "id": 10,
