@@ -15,8 +15,12 @@ export default function Cart({ technologie, addStack, setAddStack }: CartProps) 
   const handleClick = () => {
     setStack(true)
     setAddStack([...addStack, technologie])
-  }
+    
 
+  }
+    const isAdded = addStack.some(
+    stack => stack.name === technologie.name
+  );
   return (
     <div className={`${stack ? "border-[#EC4899] border" : " border border-gray-300"} rounded-2xl p-5 gap-4  grid`} >
 
@@ -35,7 +39,7 @@ export default function Cart({ technologie, addStack, setAddStack }: CartProps) 
         <h3 className="flex items-center font-medium text-[15px]"><MdOutlineStar className="text-amber-300"/> {technologie.rating}</h3>
       </div>
 
-      <button onClick={handleClick} disabled={stack === true ? true : false} className={`mt-4 cursor-pointer px-9 py-2 rounded-[14px] ${stack ? "text-black bg-gray-300" : "text-white  bg-[#0A0F1D]"}`}>{stack ? "✔️Add to Stack" : "Add to Stack"}</button>
+      <button onClick={handleClick} disabled={isAdded === true ? true : false} className={`mt-4 cursor-pointer px-9 py-2 rounded-[14px] ${isAdded ? "text-black bg-gray-300" : "text-white  bg-[#0A0F1D]"}`}>{isAdded ? "✔️Add to Stack" : "Add to Stack"}</button>
     </div >
 
   )

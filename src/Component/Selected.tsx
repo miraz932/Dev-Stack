@@ -16,6 +16,10 @@ const Selected = ({ addStack, setAddStack }: SelectedProps) => {
 
     
   }
+  
+ const handleRemoveAll = () => {
+  setAddStack([]);
+};
 
 
 
@@ -29,7 +33,7 @@ const Selected = ({ addStack, setAddStack }: SelectedProps) => {
   return (
     <div>
       <h1>Yor Stack</h1>
-      <p> Technology Selected</p>
+      <p>{addStack.length} Technology Selected</p>
       {
         addStack.map(cart => {
           return (
@@ -54,7 +58,7 @@ const Selected = ({ addStack, setAddStack }: SelectedProps) => {
         })
       }
       <div className="flex justify-center mt-2">
-        <button className=" border rounded-2xl px-4">Remove All</button>
+        <button className=" border rounded-2xl cursor-pointer px-4" onClick={handleRemoveAll}>Remove All</button>
       </div>
     </div>
   )
