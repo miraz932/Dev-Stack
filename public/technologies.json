@@ -1,13 +1,15 @@
 [
-    {
+  {
     "id": 5,
     "name": "React",
     "category": "Frontend",
-    "description": "A JavaScript library for building reusable and interactive user interfaces.",
+    "description": "A JavaScript library for building reusable and interactive user interfaces with modern web technologies.",
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     "rating": 4.9,
     "difficulty": "Intermediate",
-    "badge": "Popular"
+    "badge": "Popular",
+    "badgeColor": "bg-sky-50",
+    "badgeTextColor": "text-sky-500"
   },
   {
     "id": 2,
@@ -17,17 +19,21 @@
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
-    "badge": "Essential"
+    "badge": "Essential",
+    "badgeColor": "bg-orange-300",
+    "badgeTextColor": "text-white"
   },
   {
     "id": 3,
     "name": "CSS",
     "category": "Styling",
-    "description": "A stylesheet language used to design and style the appearance of web pages.",
+    "description": "A stylesheet language used to the appearance of web pages with colors, layouts, and responsive designs.",
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
     "rating": 4.8,
     "difficulty": "Beginner-Friendly",
-    "badge": "Essential"
+    "badge": "Essential",
+    "badgeColor": "bg-blue-300",
+    "badgeTextColor": "text-white"
   },
   {
     "id": 4,
@@ -37,7 +43,9 @@
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
     "rating": 4.8,
     "difficulty": "Intermediate",
-    "badge": "Popular"
+    "badge": "Popular",
+    "badgeColor": "bg-cyan-50",
+    "badgeTextColor": "text-cyan-500"
   },
   {
     "id": 1,
@@ -47,17 +55,21 @@
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
-    "badge": "Popular"
+    "badge": "Popular",
+    "badgeColor": "bg-amber-200",
+    "badgeTextColor": "text-amber-600"
   },
   {
     "id": 6,
     "name": "TypeScript",
     "category": "Language",
-    "description": "A strongly typed programming language built on JavaScript that helps developers write safer and more maintainable code.",
+    "description": "A strongly typed programming language JavaScript that helps developers write more maintainable code.",
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
     "rating": 4.8,
     "difficulty": "Intermediate",
-    "badge": "Popular"
+    "badge": "Popular",
+    "badgeColor": "bg-sky-50",
+    "badgeTextColor": "text-sky-600"
   },
   {
     "id": 7,
@@ -67,17 +79,21 @@
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
     "rating": 4.8,
     "difficulty": "Intermediate",
-    "badge": "Fast"
+    "badge": "Fast",
+    "badgeColor": "bg-emerald-200",
+    "badgeTextColor": "text-emerald-500"
   },
   {
     "id": 8,
     "name": "Express.js",
     "category": "Backend",
-    "description": "A lightweight Node.js framework used to create APIs and web servers.",
+    "description": "A lightweight Node.js framework used to create APIs and web servers with fast, flexible, and scalable applications.",
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
     "rating": 4.7,
     "difficulty": "Intermediate",
-    "badge": "Fast"
+    "badge": "Fast",
+    "badgeColor": "bg-gray-200",
+    "badgeTextColor": "text-black"
   },
   {
     "id": 10,
@@ -87,7 +103,9 @@
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
     "rating": 4.8,
     "difficulty": "Advanced",
-    "badge": "Essential"
+    "badge": "Essential",
+    "badgeColor": "bg-blue-50",
+    "badgeTextColor": "text-blue-600"
   },
   {
     "id": 11,
@@ -97,7 +115,9 @@
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
     "rating": 4.8,
     "difficulty": "Advanced",
-    "badge": "Containers"
+    "badge": "Containers",
+    "badgeColor": "bg-sky-50",
+    "badgeTextColor": "text-sky-500"
   },
   {
     "id": 12,
@@ -107,7 +127,9 @@
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
-    "badge": "Essential"
+    "badge": "Essential",
+    "badgeColor": "bg-red-400",
+    "badgeTextColor": "text-white"
   },
   {
     "id": 13,
@@ -117,6 +139,8 @@
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
-    "badge": "Popular"
+    "badge": "Popular",
+    "badgeColor": "bg-gray-300",
+    "badgeTextColor": "text-white"
   }
 ]
