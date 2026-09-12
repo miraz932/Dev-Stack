@@ -19,15 +19,15 @@ const Navber = () => {
         </div>
       </nav>
 
-
+     {/* Resposive */}
+     
       <div className='flex justify-between tems-center py-3 px-3 md:hidden '>
-        <span className= 'flex items-center md:hidden '><RxHamburgerMenu /></span>
+        <span className='flex items-center md:hidden '><RxHamburgerMenu /></span>
         <span className='md:hidden '> <img className='w-fit h-8' src={Logo} alt="" /></span>
         <span className='md:hidden flex gap-4 text-[#475569] text-[14px]  font-normal'>
           <button className=' cursor-pointer hover:text-[#DB2777] '>Sign In</button>
           <button className='cursor-pointer bg-linear-to-r from-[#EC4899] to-[#9333EA] text-white px-4 py-1.5 rounded-[18px] font-normal  '>Sign Up</button>
         </span>
-
       </div>
     </div>
 

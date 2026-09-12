@@ -1,8 +1,7 @@
 import type { Dispatch, SetStateAction } from "react";
 import type { TechnologyType } from "../TechnologieType";
-import { MdClose } from "react-icons/md";
 import { AiOutlineClose } from "react-icons/ai";
-import { Bounce, toast } from "react-toastify";
+import { toast } from "react-toastify";
 
 export interface SelectedProps {
   addStack: TechnologyType[]
@@ -16,7 +15,7 @@ const Selected = ({ addStack, setAddStack }: SelectedProps) => {
     setAddStack(remove)
 
     toast.info('Remove Cart')
-   
+
 
   }
 
@@ -31,11 +30,9 @@ const Selected = ({ addStack, setAddStack }: SelectedProps) => {
     return (
       <div>
         <h5 className="font-bold">Your Stack</h5>
-
         <div className="flex justify-center  border border-dotted rounded-2xl border-gray-400 px-6 py-6 mt-4">
           <h5 className=" text-gray-400">Your stack is empty.</h5>
         </div>
-
       </div>
     )
   }
@@ -56,11 +53,9 @@ const Selected = ({ addStack, setAddStack }: SelectedProps) => {
                   <h1 className="font-bold text-[13px]">{cart.name}</h1>
                   <p className="-mt-1 text-gray-400 text-[12px]">{cart.category}</p>
                 </div>
-
               </div>
 
               <AiOutlineClose className=" cursor-pointer" onClick={() => handleRemove(cart)} />
-
 
             </div>
 

@@ -40,8 +40,9 @@ export default function Cart({ technologie, addStack, setAddStack }: CartProps) 
         <h3 className="flex items-center font-medium text-[15px]"><MdOutlineStar className="text-amber-300" /> {technologie.rating}</h3>
       </div>
 
-      <button onClick={handleClick} disabled={isAdded === true ? true : false} className={`mt-4 -mb-1.5 cursor-pointer px-9.5 py-1.5 rounded-[13px] ${isAdded ? "text-black bg-gray-300" : "text-white  bg-[#0A0F1D]"}`}>{isAdded ? "✔️Add to Stack" : "Add to Stack"}</button>
+      <button onClick={handleClick} disabled={isAdded === true ? true : false} className={`mt-4 -mb-1.5 cursor-pointer px-9.5 py-1.5 rounded-[13px] ${isAdded ? "text-black bg-gray-300" : "text-white curs  bg-[#0A0F1D]"}`}>{isAdded ? "✔️Add to Stack" : "Add to Stack"}</button>
     </div >
+
 
   )
 }

@@ -3,6 +3,7 @@ import Banner from "./Component/Banner"
 import ExploreTechnologies from "./Component/ExploreTechnologies"
 import Navber from "./Component/Navber"
 import type { TechnologyType } from "./TechnologieType"
+import Footer from "./Component/Footer"
 
 
 
@@ -23,6 +24,7 @@ function App() {
       <Suspense fallback={<h3>Loading.....</h3>}>
      <ExploreTechnologies handleTechnologiesData={promisedata}></ExploreTechnologies>
      </Suspense>
+    <Footer></Footer>
    </div>
   )
 }

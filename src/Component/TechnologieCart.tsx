@@ -30,11 +30,8 @@ export default function TechnologieCart({ technologieData, addStack, setAddStack
 
     
       <div className="border mt-6 h-fit  rounded-2xl border-gray-300 p-5 w-72">
-
         <Selected addStack={addStack} setAddStack={setAddStack}></Selected>
-
       </div>
-
     </div>
 
 
