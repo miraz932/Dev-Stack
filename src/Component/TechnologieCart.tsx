@@ -16,8 +16,8 @@ export default function TechnologieCart({ technologieData, addStack, setAddStack
 
 
   return (
-    <div className="flex gap-1 ">
-      <div className=" container grid grid-cols-3 gap-4 mb-5 items-center mt-6" >
+    <div className=" flex flex-col w-85 container mx-auto md:w-fit md:flex-row gap-1 justify-center md:justify-start">
+      <div className=" container grid grid-cols-1 md:grid-cols-3 gap-4 mb-5 items-center mt-6" >
 
         {
           technologieData.map((technologie, ind) => {
@@ -29,15 +29,10 @@ export default function TechnologieCart({ technologieData, addStack, setAddStack
       </div>
 
     
-      <div className="border mt-6 h-fit  rounded-2xl border-gray-300 p-5 w-72">
+      <div className="border mt-6 h-fit  rounded-2xl border-gray-300 p-5 w-85 container mx-auto  md:w-72">
         <Selected addStack={addStack} setAddStack={setAddStack}></Selected>
       </div>
     </div>
-
-
-
-
-
 
 
   )
