@@ -7,7 +7,6 @@ const Footer = () => {
 
       <div className="container mx-auto">
         <div className='container mx-auto flex justify-between  py-14'>
-          
           <div className='grid gap-2.5'>
             <img src={FooterLogo} alt="" />
             <p className='text-[#64748B] text-[13px]'>Curated tools, technologies, and resources for developers building <br />
