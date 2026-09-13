@@ -19,7 +19,7 @@ const Banner = () => {
       </div>
       
       <div className="flex  container justify-center  md:justify-end">
-        <img className="bg-center bg-cover w-fit h-85" src={banner} alt="" />
+        <img className="bg-center bg-cover w-fit h-85" src={banner} alt="banner" />
       </div>
 
     </div>

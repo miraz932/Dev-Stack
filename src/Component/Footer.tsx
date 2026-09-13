@@ -4,10 +4,10 @@ const Footer = () => {
   return (
 
 
-    <div className='border-t border-gray-200 mt-15'>
+    <div className='border-t bg-gray-50 border-gray-200 mt-15'>
 
       <div className="container mx-auto ">
-        <div className='container mx-auto flex justify-center text-center md:text-start md:justify-between py-1 md:py-12'>
+        <div className='container mx-auto flex justify-center text-center md:text-start md:justify-between py-6 md:py-5 md:pt-12'>
 
           <div className='grid gap-2.5 '>
             <div className="flex justify-center md:justify-start">
@@ -51,13 +51,11 @@ const Footer = () => {
           </div>
         </div>
 
-
-
-        <div className=" mb-10">
-          <div className="divider "></div>
-          <div className="flex justify-between mt-6">
-            <p className="text-[#475569] -mt-4 text-[11px]">© 2026 Dev Stack. All rights reserved.</p>
-            <div className="flex gap-4 text-[11px] -mt-4 text-[#475569]">
+        <div className="px-5 md:px-0">
+          <div className="divider"></div>
+          <div className="flex justify-between mt-8">
+            <p className="text-[#475569] text-[11px] -mt-8">© 2026 Dev Stack. All rights reserved.</p>
+            <div className="flex gap-4 text-[11px] -mt-8 text-[#475569]">
               <p>Privacy</p>
               <p>Terms</p>
             </div>
@@ -65,8 +63,6 @@ const Footer = () => {
         </div>
 
       </div>
-
-
     </div>
   );
 };
