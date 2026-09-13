@@ -14,8 +14,9 @@ export interface TechnologieCartProps {
 
 export default function TechnologieCart({ technologieData, addStack, setAddStack }: TechnologieCartProps) {
 
+
   return (
-    <div className=" flex flex-col w-85 container mx-auto md:w-full md:flex-row gap-1 justify-center md:justify-start">
+    <div className=" flex flex-col w-85 container mx-auto md:w-full xl:w-270 md:flex-row gap-1 justify-center md:justify-start">
       <div className=" container grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4 mb-5 items-center mt-6" >
 
         {

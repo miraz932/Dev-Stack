@@ -4,9 +4,9 @@ const Footer = () => {
   return (
 
 
-    <div className='border-t bg-gray-50 border-gray-200 mt-15'>
+    <div className='border-t bg-gray-50  border-gray-200 mt-15'>
 
-      <div className="container mx-auto ">
+      <div className="container mx-auto xl:w-270 ">
         <div className='container mx-auto flex justify-center text-center md:text-start md:justify-between py-6 md:py-5 md:pt-12'>
 
           <div className='grid gap-2.5 '>

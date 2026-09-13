@@ -11,9 +11,9 @@ export default function ExploreTechnologies({ handleTechnologiesData }: ExploreT
   console.log(useData)
   const [addStack, setAddStack] = useState<TechnologyType[]>([])
   return (
-    <div className="container mx-auto mt-4">
+    <div className="container mx-auto xl:w-270  mt-4">
 
-      <div className="grid  justify-center text-center md:text-left md:justify-start">
+      <div className="grid justify-center text-center md:text-left md:justify-start">
         <h1 className="font-bold text-3xl">Explore the <span className="font-bold bg-linear-to-r from-[#EC4899] to-[#8B5CF6] bg-clip-text text-transparent">Technologies</span> </h1>
         <p className="text-[#475569]">Pick one technology per category to build your ideal stack.</p>
       </div>

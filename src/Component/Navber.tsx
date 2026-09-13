@@ -3,8 +3,8 @@ import Logo from '../assets/logo-text.png';
 
 const Navber = () => {
   return (
-    <div className='border-t border-b border-gray-200 fixed top-0 left-0 w-full z-50 bg-white'>
-      <nav className='container mx-auto hidden md:flex justify-between items-center py-3'>
+    <div className='border-t border-b border-gray-200  fixed top-0 left-0 w-full z-50 bg-white'>
+      <nav className='container mx-auto hidden xl:w-270  md:flex justify-between items-center py-3'>
         <img className='w-fit h-8.5' src={Logo} alt="" />
         <ul className='hidden md:flex gap-6 items-center text-[#475569] text-[14px]  font-normal'>
           <li className='hover:text-[#DB2777] cursor-pointer'>Home</li>
