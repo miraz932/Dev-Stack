@@ -27,7 +27,7 @@
     "id": 3,
     "name": "CSS",
     "category": "Styling",
-    "description": "A stylesheet language for web pages with colors, layouts, and responsive designs.",
+    "description": "A stylesheet language for web use pages with the colors, layouts, and responsive designs.",
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
     "rating": 4.8,
     "difficulty": "Beginner-Friendly",

@@ -8,24 +8,24 @@ import Footer from "./Component/Footer"
 
 
 
-const handleTechnologiesData = async ():Promise<TechnologyType[]> =>{
-  const res = await fetch("/public/technologies.json")
+const handleTechnologiesData = async (): Promise<TechnologyType[]> => {
+  const res = await fetch("/technologies.json")
   const data = await res.json()
   return data
 }
 
 function App() {
-  
-   const promisedata = handleTechnologiesData()
+
+ 
   return (
-   <div>
-     <Navber></Navber>
-     <Banner></Banner>
+    <div>
+      <Navber/>
+      <Banner/>
       <Suspense fallback={<h3>Loading.....</h3>}>
-     <ExploreTechnologies handleTechnologiesData={promisedata}></ExploreTechnologies>
-     </Suspense>
-    <Footer></Footer>
-   </div>
+        <ExploreTechnologies handleTechnologiesData={handleTechnologiesData()}/>
+      </Suspense>
+      <Footer/>
+    </div>
   )
 }
 
